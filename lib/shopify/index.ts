@@ -95,7 +95,6 @@ export async function shopifyFetch<T>({
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "X-Shopify-Storefront-Access-Token": key,
         ...headers,
       },
       body: JSON.stringify({
